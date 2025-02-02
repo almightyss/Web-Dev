@@ -1,0 +1,171 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #ffffff;
+}
+.container {
+    background: #f0f2f5;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+.content {
+    width: 980px;
+    margin: 20px auto;
+}
+.content > div {
+    display: inline-block;
+    vertical-align: top;
+}
+/*---------- LEFT ----------------------------------------------------------------------------------------------------*/
+.left-content {
+    width: 580px;
+    padding-right: 32px;
+}
+.facebook-logo {
+    margin-top: 112px;
+    margin-bottom: 16px;
+}
+.facebook-logo > img {
+    height: 106px;
+    margin: -28px;
+}
+.facebook-quote {
+    font-size: 28px;
+    font-weight: 500;
+    color: #333333;
+}
+/*---------- RIGHT ---------------------------------------------------------------------------------------------------*/
+.right-content {
+    width: 396px;
+}
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: 40px;
+}
+.input-container > input {
+    font-size: 17px;
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+.input-container > input:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+.login-button-container > button {
+    width: 100%;
+    background: #1877f2;
+    color: #ffffff;
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.forget-password {}
+.forget-password > a {
+    font-weight: 600;
+    color: #1877f2;
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+.forget-password > a:hover {
+    text-decoration: underline;
+}
+.divider {
+    height: 1px;
+    background: #d2d2d2;
+}
+.create-account {
+    text-align: center;
+}
+.create-account > a {
+    background: #42b72a;
+    display: inline-block;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 16px 16px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 20px 0 6px;
+}
+.create-account > a:hover {
+    background: #36a420;
+}
+.create-page {
+    text-align: center;
+    margin-top: 28px;
+}
+.create-page > a {
+    color: #000000;
+    font-weight: 600;
+}
+.create-page > a:hover {
+    text-decoration: underline;
+}
+/*---------- FOOTER --------------------------------------------------------------------------------------------------*/
+footer {
+    width: 980px;
+    margin: 28px auto;
+    font-size: 12px
+}
+footer > ul {
+    margin: 10px -5px;
+}
+
+footer > ul > li {
+    display: inline-block;
+    margin: 3px 5px;
+}
+footer > ul > li > a {
+    color: #8a8d91;
+}
+footer > span {
+    color: #8a8d91;
+}
+
